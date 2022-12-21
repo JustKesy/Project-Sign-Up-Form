@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Norse;
+  src: url(/Norse-Bold.otf);
+}
+
+body {
+  margin: 0px;
+}
+section.graphic {
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+img.forest {
+  width: inherit;
+  height: inherit;
+}
+div.logo {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: inherit;
+  position: absolute;
+  top: 35vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+img.odin {
+  width: 85px;
+}
+p.logo-text {
+  color: white;
+  font-size: 80px;
+  margin: 0px;
+  font-family: Norse, sans-serif;
+  letter-spacing: 2px;
+}
