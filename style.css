@@ -64,7 +64,7 @@ ul {
   flex-wrap: wrap;
   width: 60%;
   list-style: none;
-  row-gap: 30px;
+  row-gap: 25px;
 }
 li {
   width: 50%;
@@ -73,6 +73,11 @@ li {
 }
 input {
   width: 75%;
+  height: 20px;
+  border: 2px solid red;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 100%;
 }
 div.submit {
   height: 10vh;
@@ -90,7 +95,20 @@ button {
   font-size: larger;
   font-family: Norse;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 h3.sign-in {
   margin: 0px;
+}
+label {
+  font-family: Norse, sans-serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-shadow: 2px 2px 5px red;
+  font-size: 19px;
+  margin-bottom: 3px;
+}
+.input:focus {
+  display: none;
+  border-color: blue;
 }
